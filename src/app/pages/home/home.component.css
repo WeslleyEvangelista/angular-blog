@@ -12,8 +12,25 @@
 }
 
 header {
-    border: 1px solid white;
+    border-bottom:  1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 735px) {
+    .container__articles {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .articles__main {
+        width: 100%;
+    }
+    
+    .articles__others {
+        width: 100%;
+    }
 }

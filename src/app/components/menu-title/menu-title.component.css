@@ -3,14 +3,23 @@
 } */
 
 .menu_title_container > h1 {
-    font-size: 12rem;
+    font-size: 10vw;
     letter-spacing: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    margin-left: 25px;
 }
 
 .menu_title_container > hr {
     margin-top: 20px;
     margin-bottom: 5px;
+}
+
+@media screen and (max-width: 735px) {
+    .menu_title_container > h1  {
+        font-size: 6vw;
+        margin-top: 20px;
+    }
 }

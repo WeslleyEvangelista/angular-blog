@@ -10,3 +10,9 @@
     margin-right: 25px;
     list-style: none;
 }
+
+@media screen and (max-width: 735px) {
+    .container__menu-bar ul > li {
+        font-size: 3vw;
+    }
+}
