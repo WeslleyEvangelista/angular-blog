@@ -1,0 +1,30 @@
+.container__content {
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid white; */
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container__image > img {
+    width: 500px;
+    max-height: 290px;
+    border-radius: 5px;
+}
+
+.container__title > h1 {
+    font-size: 4vw;
+}
+
+.container__description > p {
+    font-size: 1.2vw;
+    color: #b5b5b5;
+}
+
+.container__content > a {
+    color:whitesmoke
+}
